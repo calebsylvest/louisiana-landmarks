@@ -1,4 +1,4 @@
-CourseMakers
+Louisiana Landmarks Poster
 =====
 
-CourseMakers basic site
+Awesome!
