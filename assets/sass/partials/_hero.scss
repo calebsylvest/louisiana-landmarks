@@ -6,30 +6,45 @@
 
 #hero {
 	text-align: center;
-	padding: 3em 0 0;
+	padding: 3em 0;
 	background-color: #fcfbf9;
 
 	@media screen and (min-width: $small-screen) {
-		padding: 3em 0 0;
+		padding: 3em 0;
 	}
 }
 
 .title {
-	//font-size: 2.5em;
+	font-size: 2.5em;
 	margin: .3em 0 .1em;
 	color: $primary-color;
+	line-height: 1;
+
+	@media screen and (min-width: $small-screen) {
+		font-size: 3em;
+	}
 }
 
-.definition-name {
-	font-size: 1.3em;
-	margin: 0 auto .5em;
-	max-width: 25em;
-	width: 80%;
+.callout {
+	font-size: 1.2em;
+	margin-bottom: 3em;
 }
 
-.definition {
-	font-size: 1em;
-	margin: 0 auto 2em;
-	max-width: 25em;
-	width: 80%;
+.hero-image {
+	width: 95%;
+	max-width: 45em;
+	margin-bottom: 3em;
+	@include transition(all .2s linear);
+
+	@media screen and (min-width: $small-screen) {
+		margin-bottom: 5em;
+	}
+
+	&:hover {
+		-webkit-box-shadow: 0 10px 25px -9px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 10px 25px -9px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 25px -9px rgba(0,0,0,0.4);
+    position: relative;
+    top: -2px;
+	}
 }

@@ -4,6 +4,9 @@
  *
  */
 
+.email-wrapper {
+	margin: 3em 0;
+}
 
 .field-group {
 	position: relative;
@@ -14,8 +17,8 @@ input.email {
 	padding: .9em;
 	background-color: transparent;
 	width: 100%;
-	height: 3.3em;
-	line-height: 3.3em;
+	height: 53px;
+	line-height: 53px;
 
 	&:focus {
 		background-color: #fff;
@@ -23,8 +26,8 @@ input.email {
 }
 
 .email-button {
-	font-size: .9em;
-	height: 3.5em;
+	font-size: .8em;
+	height: 53px;
 	line-height: 3.9em;
 	background-color: $dark-color;
 	border: none;
@@ -32,7 +35,8 @@ input.email {
 	font-family: $header-font-family;
 	padding: 0 1em;
 	text-transform: uppercase;
-	letter-spacing: $base-letter-spacing;
+	letter-spacing: .07em;
+	@include transition(all .2s linear);
 
 	position: absolute;
 	top: 0;

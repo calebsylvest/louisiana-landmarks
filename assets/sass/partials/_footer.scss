@@ -7,18 +7,14 @@
 
 // Footer
 .site-footer {
-	//background-color: darken($primary-color, 3%);
-	//background-color: $dark-green-color;
-	background-color: darken($light-green-color, 10%);
+	background-color: $primary-color;
 	overflow: hidden;
-	//padding-top: 4em;
 
 	.footer-widget  {
 		margin-bottom: 2em;
 	}
 
 	p {
-		//color: $yellow-color;
 		font-size: .9em;
 	}
 
