@@ -1,0 +1,35 @@
+/*
+  * 
+  * Hero
+  *
+  */
+
+#hero {
+	text-align: center;
+	padding: 3em 0 0;
+	background-color: #fcfbf9;
+
+	@media screen and (min-width: $small-screen) {
+		padding: 3em 0 0;
+	}
+}
+
+.title {
+	//font-size: 2.5em;
+	margin: .3em 0 .1em;
+	color: $primary-color;
+}
+
+.definition-name {
+	font-size: 1.3em;
+	margin: 0 auto .5em;
+	max-width: 25em;
+	width: 80%;
+}
+
+.definition {
+	font-size: 1em;
+	margin: 0 auto 2em;
+	max-width: 25em;
+	width: 80%;
+}

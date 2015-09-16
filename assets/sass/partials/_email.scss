@@ -1,0 +1,45 @@
+/*
+ * 
+ * Email button form
+ *
+ */
+
+
+.field-group {
+	position: relative;
+}
+
+input.email {
+	border: 3px solid $dark-color;
+	padding: .9em;
+	background-color: transparent;
+	width: 100%;
+	height: 3.3em;
+	line-height: 3.3em;
+
+	&:focus {
+		background-color: #fff;
+	}
+}
+
+.email-button {
+	font-size: .9em;
+	height: 3.5em;
+	line-height: 3.9em;
+	background-color: $dark-color;
+	border: none;
+	color: $neutral-color;
+	font-family: $header-font-family;
+	padding: 0 1em;
+	text-transform: uppercase;
+	letter-spacing: $base-letter-spacing;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	&:hover,
+	&:focus {
+		background-color: $primary-color;
+	}
+}
